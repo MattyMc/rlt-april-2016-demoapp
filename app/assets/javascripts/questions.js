@@ -43,6 +43,7 @@ function respond(response) {
   myFirebaseRef.child("answers").push({response: response});
 };
 
+
 // myFirebaseRef.child("answers").orderByChild("response").equalTo"yes").on("child_added", function(snapshot) {
 //   console.log(snapshot.key());
 // });
