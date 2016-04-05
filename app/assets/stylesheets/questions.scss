@@ -1,3 +1,33 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 500%;
+}
+
+#response-row {
+  button {
+    padding: 80px 100px;
+    font-size: 40px;
+    margin-top:60px;
+  }
+}
+
+#question {
+  font-size: 300%;
+}
+
+#message {
+  font-size: 300%;
+}
+
+#answers {
+  h2 {
+    font-size: 400%;
+  }
+  h3 {
+    font-size: 300%;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
